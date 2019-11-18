@@ -41,7 +41,7 @@ template <typename Real>
 class Quaternion;
 NS_KMATH_END
 
-#define USE_DX_MATH
+// #define USE_DX_MATH
 #ifdef USE_DX_MATH
 #include <d3dx9math.h>
 #endif
